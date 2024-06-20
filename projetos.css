@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:ital,wght@1,200&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #212121;
+    color: #fff;
+    min-height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    background-color: #212121;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.meu {
+    font-size: 40px;
+    margin-left: 6rem;
+    text-shadow: 2px 1px 2px #fff;
+}
+
+.portfolio {
+    font-size: 40px;
+    margin-left: 1rem;
+    margin-right: 2rem;
+    text-shadow: 2px 1px 3px #4582D9;
+    color: #4582D9;
+}
+
+/* edição da Nav */
+
+nav {
+    margin-right: 12rem;
+}
+
+nav ul {
+    margin: 0px;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    color: #4582D9;
+    transform: scale(1.2);
+    text-shadow: 0 3px 4px #4582D9;
+}
+
+.projetos {
+    color: #4582D9;
+    text-shadow: 0 3px 4px #4582D9;
+}
+
+/* edição do conteudo */
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    min-height: 79vh;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* edição dos Botões "Em Breve..." */
+.botao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.botao li {
+    list-style: none;
+}
+
+.botao li {
+    width: 250px;
+    height: 150px;
+    border-radius: 10px;
+    border: 2px solid #235BA9;
+    background: #235BA9;
+    margin-left: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+}
+
+.botao li:hover {
+    cursor: pointer;
+    background: #0890D9;
+    transform: translateY(-10px);
+}

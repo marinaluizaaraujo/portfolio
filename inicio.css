@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:ital,wght@1,200&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #212121;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    background-color: #212121;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.meu {
+    font-size: 40px;
+    margin-left: 6rem;
+    text-shadow: 2px 1px 2px #fff;
+}
+
+.portfolio {
+    font-size: 40px;
+    margin-left: 1rem;
+    margin-right: 2rem;
+    text-shadow: 2px 1px 3px #4582D9;
+    color: #4582D9;
+}
+
+/* edição da Nav */
+
+nav {
+    margin-right: 12rem;
+}
+
+nav ul {
+    margin: 0px;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    color: #4582D9;
+    transform: scale(1.2);
+    text-shadow: 0 3px 4px #4582D9;
+}
+
+.inicio {
+    color: #4582D9;
+    text-shadow: 0 3px 4px #4582D9;
+}
+
+/* edição do conteudo */
+.conteudo{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+aside {
+    background-color: #212121;
+    padding: 5rem 0 5rem 4rem;
+    margin: 3rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    padding: 0 6px;
+}
+
+h2 {
+    padding: 3px;
+}
+
+
+/* icones para contatos */
+.icones {
+    position: absolute;
+    bottom: 100px;
+    left: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icones li {
+    list-style: none;
+}
+
+.icones li a {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #212121;
+    margin-left: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+}
+
+.icones li a:hover {
+    background: #235BA9;
+    transform: translateY(-10px);
+}
+
+/* mudando a cor da imagem */
+.icones li a img {
+    transform: scale(0.5);
+    filter: invert(1);
+}
+
+/* edição da foto */
+span section {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.fotoperfil {
+    height: 350px;
+    width: 450px;
+    border-radius: 50%;
+    border: 2px solid #4582D9;
+}
